@@ -3,7 +3,7 @@
 This project presents a basic thesis-template.
 You need Pandoc and CMake installed.
 
-For easy setup use [Homebrew](brew.sh) or checkout my [dotfiles-repository](github.com/gismo141/dotfiles).
+For easy setup use [Homebrew](brew.sh) or checkout my [dotfiles-repository](https://github.com/gismo141/dotfiles).
 
 Thanks to @jeetsukumaran for his [pandocology](https://github.com/jeetsukumaran/cmake-pandocology) for enabling the use of Pandoc via CMake.
 
