@@ -17,7 +17,6 @@ add_document(
 	PANDOC_DIRECTIVES 	--template=${TEMPLATE}
 						--bibliography=${BIBLIOGRAPHY}
 						--biblatex
-						# --filter ~/Library/Haskell/bin/pandoc-crossref
 						--listings
 						--toc
 						--chapters

@@ -35,10 +35,10 @@ RM = /usr/local/Cellar/cmake/3.2.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/michaelriedel/Developer/mdPCM_t
+CMAKE_SOURCE_DIR = /Users/michaelriedel/Developer/Markdown-CMake-Pandoc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/michaelriedel/Developer/mdPCM_t/build
+CMAKE_BINARY_DIR = /Users/michaelriedel/Developer/Markdown-CMake-Pandoc/build
 
 # Utility rule file for diagramm.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /Users/michaelriedel/Developer/mdPCM_t/build
 include Diagrams/CMakeFiles/diagramm.dir/progress.make
 
 Diagrams/CMakeFiles/diagramm:
-	cd /Users/michaelriedel/Developer/mdPCM_t/build/Diagrams && /usr/local/bin/dot -Tpdf /Users/michaelriedel/Developer/mdPCM_t/Diagrams/diagramm.dot -o /Users/michaelriedel/Developer/mdPCM_t/build/Diagrams/diagramm.pdf
+	cd /Users/michaelriedel/Developer/Markdown-CMake-Pandoc/build/Diagrams && /usr/local/bin/dot -Tpdf /Users/michaelriedel/Developer/Markdown-CMake-Pandoc/Diagrams/diagramm.dot -o /Users/michaelriedel/Developer/Markdown-CMake-Pandoc/build/Diagrams/diagramm.pdf
 
 diagramm: Diagrams/CMakeFiles/diagramm
 diagramm: Diagrams/CMakeFiles/diagramm.dir/build.make
@@ -57,10 +57,10 @@ Diagrams/CMakeFiles/diagramm.dir/build: diagramm
 .PHONY : Diagrams/CMakeFiles/diagramm.dir/build
 
 Diagrams/CMakeFiles/diagramm.dir/clean:
-	cd /Users/michaelriedel/Developer/mdPCM_t/build/Diagrams && $(CMAKE_COMMAND) -P CMakeFiles/diagramm.dir/cmake_clean.cmake
+	cd /Users/michaelriedel/Developer/Markdown-CMake-Pandoc/build/Diagrams && $(CMAKE_COMMAND) -P CMakeFiles/diagramm.dir/cmake_clean.cmake
 .PHONY : Diagrams/CMakeFiles/diagramm.dir/clean
 
 Diagrams/CMakeFiles/diagramm.dir/depend:
-	cd /Users/michaelriedel/Developer/mdPCM_t/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/michaelriedel/Developer/mdPCM_t /Users/michaelriedel/Developer/mdPCM_t/Diagrams /Users/michaelriedel/Developer/mdPCM_t/build /Users/michaelriedel/Developer/mdPCM_t/build/Diagrams /Users/michaelriedel/Developer/mdPCM_t/build/Diagrams/CMakeFiles/diagramm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/michaelriedel/Developer/Markdown-CMake-Pandoc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/michaelriedel/Developer/Markdown-CMake-Pandoc /Users/michaelriedel/Developer/Markdown-CMake-Pandoc/Diagrams /Users/michaelriedel/Developer/Markdown-CMake-Pandoc/build /Users/michaelriedel/Developer/Markdown-CMake-Pandoc/build/Diagrams /Users/michaelriedel/Developer/Markdown-CMake-Pandoc/build/Diagrams/CMakeFiles/diagramm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Diagrams/CMakeFiles/diagramm.dir/depend
 
